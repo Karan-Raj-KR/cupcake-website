@@ -5,14 +5,17 @@ import Image from "next/image";
 
 // Extended gallery images
 const GALLERY_IMAGES = [
-    "https://images.unsplash.com/photo-1563729784474-d779b9596388?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&q=80&w=800", // Red Velvet
-    "https://images.unsplash.com/photo-1599785209796-786432b228bc?auto=format&fit=crop&q=80&w=800", // Chocolate
-    "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&q=80&w=800", // Vanilla
-    "https://images.unsplash.com/photo-1612201142855-7873bc1661b4?auto=format&fit=crop&q=80&w=800", // Coffee
-    "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800", // Wedding
-    "https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&q=80&w=800", // Strawberry
-    "https://images.unsplash.com/photo-1563729784474-d779b9596388?auto=format&fit=crop&q=80&w=800", // Party
+    "/images/hero-bg.png",
+    "/images/red-velvet.png", // Red Velvet
+    "/images/double-chocolate.png", // Chocolate
+    "/images/vanilla-bean.png", // Vanilla
+    "/images/strawberry-fields.png", // Strawberry
+    "/images/salted-caramel.png", // Salted Caramel
+    "/images/blueberry-burst.png", // Blueberry
+    "/images/lemon-zest.png", // Lemon
+    "/images/coffee-walnut.png", // Coffee
+    "/images/birthday-box.png", // Birthday
+    "/images/wedding-hampers.png", // Wedding
 ];
 
 export default function GalleryPage() {

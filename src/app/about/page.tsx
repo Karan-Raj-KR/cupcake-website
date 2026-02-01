@@ -16,7 +16,7 @@ export default function AboutPage() {
                     <div className="flex flex-col md:flex-row items-center gap-12">
                         <div className="flex-1 relative aspect-[4/5] w-full max-w-md rounded-2xl overflow-hidden shadow-xl">
                             <Image
-                                src="https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&q=80&w=1000"
+                                src="/images/about-baking.png"
                                 alt="Couple baking together"
                                 fill
                                 className="object-cover"

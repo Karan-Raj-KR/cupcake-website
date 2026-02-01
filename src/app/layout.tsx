@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "suretreat | Homemade Happiness",
+  title: "sure treat | Homemade Happiness",
   description: "Freshly baked homemade cupcakes in Bangalore. Order online via WhatsApp.",
 };
 

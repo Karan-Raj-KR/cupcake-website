@@ -7,7 +7,7 @@ export function Footer() {
             <div className="container grid gap-8 md:grid-cols-4">
                 {/* Brand */}
                 <div className="space-y-4">
-                    <h2 className="font-heading text-2xl font-bold">suretreat</h2>
+                    <h2 className="font-heading text-2xl font-bold">sure treat</h2>
                     <p className="text-cream/80 text-sm max-w-xs">
                         Homemade happiness baked fresh in Bangalore. We craft delicious cupcakes for your special moments.
                     </p>
@@ -54,7 +54,7 @@ export function Footer() {
             </div>
 
             <div className="container mt-12 pt-8 border-t border-cream/10 text-center text-xs text-cream/60">
-                © {new Date().getFullYear()} suretreat. All rights reserved.
+                © {new Date().getFullYear()} sure treat. All rights reserved.
             </div>
         </footer>
     );

@@ -22,7 +22,7 @@ export function Navbar() {
             <div className="container flex h-16 items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="font-heading text-2xl font-bold text-brand-brown">
-                    suretreat<span className="text-brand-accent">_cupcakes</span>
+                    sure treat
                 </Link>
 
                 {/* Desktop Nav */}

@@ -10,7 +10,7 @@ export function Hero() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="https://images.unsplash.com/photo-1563729784474-d779b9596388?auto=format&fit=crop&q=80&w=2000"
+                    src="/images/hero-bg.png"
                     alt="Delicious Cupcakes"
                     fill
                     className="object-cover opacity-90 brightness-75"
