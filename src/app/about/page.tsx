@@ -28,7 +28,7 @@ export default function AboutPage() {
                                 Baking Happiness, <br /> One Cupcake at a Time
                             </h1>
                             <p className="text-lg text-brand-brown/80 leading-relaxed">
-                                Hi! We are the couple behind <span className="font-bold text-brand-accent">suretreat_cupcakes</span>.
+                                Hi! We are the couple behind <span className="font-bold text-brand-accent">suretreat</span>.
                                 What started as a small home kitchen experiment has grown into a passion for sharing sweetness with Bangalore.
                             </p>
                             <p className="text-brand-brown/70 leading-relaxed">

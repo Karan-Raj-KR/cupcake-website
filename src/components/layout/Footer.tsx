@@ -7,7 +7,7 @@ export function Footer() {
             <div className="container grid gap-8 md:grid-cols-4">
                 {/* Brand */}
                 <div className="space-y-4">
-                    <h2 className="font-heading text-2xl font-bold">suretreat<span className="text-brand-pink">_cupcakes</span></h2>
+                    <h2 className="font-heading text-2xl font-bold">suretreat</h2>
                     <p className="text-cream/80 text-sm max-w-xs">
                         Homemade happiness baked fresh in Bangalore. We craft delicious cupcakes for your special moments.
                     </p>
@@ -30,7 +30,7 @@ export function Footer() {
                     <ul className="space-y-3 text-sm text-cream/80">
                         <li className="flex items-center gap-2">
                             <Phone className="h-4 w-4 text-brand-pink" />
-                            <span>+91 98765 43210</span>
+                            <span>+91 80735 70693</span>
                         </li>
                         <li className="flex items-start gap-2">
                             <MapPin className="h-4 w-4 text-brand-pink mt-0.5" />
@@ -54,7 +54,7 @@ export function Footer() {
             </div>
 
             <div className="container mt-12 pt-8 border-t border-cream/10 text-center text-xs text-cream/60">
-                © {new Date().getFullYear()} suretreat_cupcakes. All rights reserved.
+                © {new Date().getFullYear()} suretreat. All rights reserved.
             </div>
         </footer>
     );

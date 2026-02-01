@@ -19,7 +19,7 @@ export default function ContactPage() {
                     </p>
                 </header>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <div className="max-w-2xl mx-auto">
 
                     {/* Contact Info */}
                     <div className="space-y-8">
@@ -33,7 +33,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="font-bold text-brand-brown">WhatsApp / Call</p>
-                                        <p className="text-brand-brown/70">+91 98765 43210</p>
+                                        <p className="text-brand-brown/70">+91 80735 70693</p>
                                     </div>
                                 </div>
 
@@ -44,7 +44,6 @@ export default function ContactPage() {
                                     <div>
                                         <p className="font-bold text-brand-brown">Location</p>
                                         <p className="text-brand-brown/70">Bangalore, Karnataka</p>
-                                        <p className="text-sm text-brand-brown/50 mt-1">(Near College Road)</p>
                                     </div>
                                 </div>
 
@@ -54,15 +53,14 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="font-bold text-brand-brown">Working Hours</p>
-                                        <p className="text-brand-brown/70">Mon - Sat: 10:00 AM - 8:00 PM</p>
-                                        <p className="text-brand-brown/70">Sun: Pre-orders only</p>
+                                        <p className="text-brand-brown/70">We accept orders anytime on WhatsApp</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="mt-8 pt-8 border-t border-brand-brown/10">
                                 <Button
-                                    onClick={() => window.open("https://wa.me/919876543210", "_blank")}
+                                    onClick={() => window.open("https://wa.me/918073570693", "_blank")}
                                     className="w-full gap-2"
                                     size="lg"
                                 >
@@ -73,19 +71,6 @@ export default function ContactPage() {
                         </div>
                     </div>
 
-                    {/* Map / Visual Placeholder */}
-                    <div className="h-full min-h-[400px] bg-brand-brown/5 rounded-2xl overflow-hidden relative border border-brand-brown/5 flex items-center justify-center">
-                        <div className="absolute inset-0 grayscale contrast-[0.9] opacity-50" suppressHydrationWarning>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.886539092!2d77.4908526272379!3d12.953959988118836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1683884844444!5m2!1sen!2sin"
-                                width="100%"
-                                height="100%"
-                                style={{ border: 0 }}
-                                loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"
-                            />
-                        </div>
-                    </div>
                 </div>
             </div>
 
