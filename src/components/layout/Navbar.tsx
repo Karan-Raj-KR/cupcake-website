@@ -3,7 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, ShoppingBag } from "lucide-react";
+import { Menu, X, ShoppingBag, Instagram, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -37,14 +37,26 @@ export function Navbar() {
                             {link.label}
                         </Link>
                     ))}
-                    <Button
-                        size="sm"
-                        className="ml-4 gap-2"
-                        onClick={() => window.open("https://wa.me/918073570693?text=Hi!%20I%20would%20like%20to%20order%20cupcakes.", "_blank")}
-                    >
-                        <ShoppingBag className="h-4 w-4" />
-                        Order Now
-                    </Button>
+                    <div className="flex items-center gap-2 ml-4">
+                        <a
+                            href="https://www.instagram.com/suretreat_cupcakes/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2.5 text-brand-brown hover:bg-brand-brown/5 rounded-full transition-all hover:scale-110"
+                            aria-label="Instagram"
+                        >
+                            <Instagram className="h-5 w-5" />
+                        </a>
+                        <a
+                            href="https://www.youtube.com/@SuretreatCupcakes"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2.5 text-brand-brown hover:bg-brand-brown/5 rounded-full transition-all hover:scale-110"
+                            aria-label="YouTube"
+                        >
+                            <Youtube className="h-5 w-5" />
+                        </a>
+                    </div>
                 </div>
 
                 {/* Mobile Menu Toggle */}
