@@ -9,7 +9,7 @@ export function Footer() {
                 <div className="space-y-4">
                     <h2 className="font-heading text-2xl font-bold">sure treat</h2>
                     <p className="text-cream/80 text-sm max-w-xs">
-                        Homemade happiness baked fresh in Bangalore. We craft delicious cupcakes for your special moments.
+                        Homemade happiness baked fresh in Bangalore. We craft delicious cupcakes for your special moments. <strong>We take party orders too!</strong>
                     </p>
                 </div>
 

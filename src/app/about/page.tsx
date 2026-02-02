@@ -45,8 +45,8 @@ export default function AboutPage() {
                             <div className="w-12 h-12 bg-brand-pink/20 rounded-full flex items-center justify-center mx-auto mb-4 text-brand-accent">
                                 <Heart className="h-6 w-6" />
                             </div>
-                            <h3 className="font-heading text-xl font-bold text-brand-brown mb-2">Handmade with Love</h3>
-                            <p className="text-brand-brown/70 text-sm">Every single cupcake is piped and decorated by hand in our small kitchen.</p>
+                            <h3 className="font-heading text-xl font-bold text-brand-brown mb-2">Home Made & Customized</h3>
+                            <p className="text-brand-brown/70 text-sm">Frosted, unfrosted, or fully customized cupcakes baked fresh in our home kitchen.</p>
                         </div>
                         <div className="p-6 bg-white rounded-2xl shadow-sm border border-brand-brown/5">
                             <div className="w-12 h-12 bg-brand-pink/20 rounded-full flex items-center justify-center mx-auto mb-4 text-brand-accent">
