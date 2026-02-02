@@ -10,7 +10,7 @@ interface WhatsAppFloatingProps {
 }
 
 export function WhatsAppFloating({
-    phoneNumber = "919876543210",
+    phoneNumber = "918073570693",
     message = "Hi! I would like to order cupcakes."
 }: WhatsAppFloatingProps) {
 

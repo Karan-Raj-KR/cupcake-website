@@ -37,7 +37,11 @@ export function Navbar() {
                             {link.label}
                         </Link>
                     ))}
-                    <Button size="sm" className="ml-4 gap-2">
+                    <Button
+                        size="sm"
+                        className="ml-4 gap-2"
+                        onClick={() => window.open("https://wa.me/918073570693?text=Hi!%20I%20would%20like%20to%20order%20cupcakes.", "_blank")}
+                    >
                         <ShoppingBag className="h-4 w-4" />
                         Order Now
                     </Button>
@@ -67,7 +71,11 @@ export function Navbar() {
                             </Link>
                         ))}
                         <div className="px-4 py-2">
-                            <Button className="w-full gap-2 bg-white text-green-600 hover:bg-gray-50 border border-brand-brown/10 shadow-sm" size="lg">
+                            <Button
+                                className="w-full gap-2 bg-white text-green-600 hover:bg-gray-50 border border-brand-brown/10 shadow-sm"
+                                size="lg"
+                                onClick={() => window.open("https://wa.me/918073570693?text=Hi!%20I%20would%20like%20to%20order%20cupcakes.", "_blank")}
+                            >
                                 <div className="relative h-6 w-6">
                                     <Image
                                         src="/images/whatsapp-logo.png"

@@ -30,7 +30,7 @@ export function Footer() {
                     <ul className="space-y-3 text-sm text-cream/80">
                         <li className="flex items-center gap-2">
                             <Phone className="h-4 w-4 text-brand-pink" />
-                            <span>+91 80735 70693</span>
+                            <span>+91 80735 70693 / 90197 09995</span>
                         </li>
                         <li className="flex items-start gap-2">
                             <MapPin className="h-4 w-4 text-brand-pink mt-0.5" />
@@ -43,10 +43,10 @@ export function Footer() {
                 <div>
                     <h3 className="font-heading text-lg font-semibold mb-4">Follow Us</h3>
                     <div className="flex gap-4">
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-brand-pink/10 rounded-full hover:bg-brand-pink/20 transition-colors text-brand-pink">
+                        <a href="https://www.instagram.com/suretreat_cupcakes/" target="_blank" rel="noopener noreferrer" className="p-2 bg-brand-pink/10 rounded-full hover:bg-brand-pink/20 transition-colors text-brand-pink">
                             <Instagram className="h-5 w-5" />
                         </a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-brand-pink/10 rounded-full hover:bg-brand-pink/20 transition-colors text-brand-pink">
+                        <a href="https://www.youtube.com/@SuretreatCupcakes" target="_blank" rel="noopener noreferrer" className="p-2 bg-brand-pink/10 rounded-full hover:bg-brand-pink/20 transition-colors text-brand-pink">
                             <Youtube className="h-5 w-5" />
                         </a>
                     </div>
